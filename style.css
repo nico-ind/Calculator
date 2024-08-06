@@ -1,22 +1,37 @@
 body {
+    height: 100vh;
+    margin: 0;
     display: flex;
-}
-
-.container {
-    display: flex;
+    box-sizing: border-box;
+    padding: 12px;
     flex-direction: column;
-    align-items: center;
+    justify-content: space-around;
     gap: 12px;
-    flex: 1;
+    font-size: 48px;
 }
 
 .row {
     display: flex;
     gap: 12px;
+    justify-content: space-around;
     flex: 1;
 }
 
 button {
     padding: 10px 40px;
     flex: 1;
+    font-size: 40px;
+    border-radius: 8px;
+}
+
+#display_div {
+    margin: 0;
+    padding: 0px 36px;
+    font-size: 100px;
+    background-color: lightgrey;
+    border: 2px solid black;
+    border-radius: 8px;
+    justify-content: flex-end;
+    max-height: 35vh;
+    align-items: center;
 }
